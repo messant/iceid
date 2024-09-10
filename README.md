@@ -1,5 +1,5 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://repository-images.githubusercontent.com/854931318/296da0ea-4f2f-42ac-9b89-229a0a3b4fcf)
 
 
 # ICE ID - Distributed Unique ID Generator

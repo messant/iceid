@@ -1,7 +1,7 @@
 {
-  "name": "@messant/iceid",
+  "name": "iceid",
   "version": "1.0.0",
-  "description": "Random unique Id generator",
+  "description": "IceId is a lightweight and efficient distributed unique ID generator based on the Snowflake algorithm. It generates time-ordered, unique IDs for distributed systems by combining a timestamp, datacenter ID, machine ID, and a sequence number. Ideal for use cases like distributed databases, logs, or anywhere globally unique and ordered identifiers are needed.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -10,16 +10,33 @@
     "clean": "rimraf dist",
     "prepare": "npm run clean && npm run build"
   },
+  "keywords": [
+    "Snowflake ID",
+    "Distributed ID generator",
+    "Unique identifier",
+    "Time-based ID",
+    "Node.js ID generator",
+    "Scalable ID",
+    "BigInt ID",
+    "Datacenter ID",
+    "Machine ID generator",
+    "Sequence-based ID",
+    "High-performance ID",
+    "Global unique ID",
+    "IceId package",
+    "Distributed system tools",
+    "JavaScript ID generator"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/messant/s3-client.git"
+    "url": "git+https://github.com/messant/iceid.git"
   },
   "author": "Arup Sarkar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/messant/s3-client/issues"
+    "url": "https://github.com/messant/iceid/issues"
   },
-  "homepage": "https://github.com/messant/s3-client#readme",
+  "homepage": "https://github.com/messant/iceid#readme",
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^22.5.4",
