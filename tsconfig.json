@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2023", // Set the JavaScript version to compile to
+    "module": "CommonJS", // Use ES module syntax for output
+    "declaration": true, // Generate corresponding '.d.ts' files
+    "declarationMap": true, // Generate sourcemaps for '.d.ts' files
+    "outDir": "./dist", // Directory to output compiled files
+    "rootDir": "./src", // Root directory of your source files
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true // Ensure consistent casing in file names
+  },
+  "include": [
+    "src/**/*"
+  ], // Include all files in the 'src' directory
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] // Exclude 'node_modules' and 'dist' directories
+}

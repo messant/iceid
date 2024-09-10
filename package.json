@@ -1,0 +1,30 @@
+{
+  "name": "@messant/iceid",
+  "version": "1.0.0",
+  "description": "Random unique Id generator",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf dist",
+    "prepare": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/messant/s3-client.git"
+  },
+  "author": "Arup Sarkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/messant/s3-client/issues"
+  },
+  "homepage": "https://github.com/messant/s3-client#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
